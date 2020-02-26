@@ -1,5 +1,5 @@
 * {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
 }
 
@@ -231,21 +231,14 @@ a:hover {
 }
 .portfolio__wrapper {
   display: block;
-  position: relative;
-  width: 1920px;
-  height: 814px;
   margin-bottom: 120px;
   overflow: hidden;
 }
 .portfolio {
-  position: absolute;
+  width: 1920px;
+  height: 814px;
   display: flex;
-  flex-wrap: wrap;
-  right: 0;  
-  left: 0;
-  top: 0;
-  bottom: 0;
- 
+  flex-wrap: wrap; 
 }
 
 .portfolio img {
