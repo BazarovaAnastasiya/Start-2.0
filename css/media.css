@@ -1,0 +1,302 @@
+@media (max-width: 1750px) {
+  .portfolio {
+    margin-left: -8%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .numbers {
+    width: 80%;
+  }
+
+  .wrapper {
+    padding: 0 15px 0 30px;
+  }
+
+  .block-title {
+    font-size: 28px;
+  }
+
+  .content {
+    width: 85%;
+    margin-left: 12px;
+    padding: 18px 0 25px 0;
+  }
+
+  .project-img {
+    width: 90%;
+  }
+
+  .wrapper-text {
+    padding: 30px 34px 39px;
+  }
+
+  .request__btn {
+    margin-right: 15px;
+  }
+
+  .portfolio {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+  }
+
+  .portfolio__wrapper {
+    overflow: overlay;
+  }
+
+  .portfolio img {
+    width: 25%;
+    height: auto;
+  }
+}
+
+@media (max-width: 1160px) {
+  .services__wrapper {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-around;
+  }
+
+  .services__item {
+    width: 250px;
+    height: 250px;
+  }
+
+  .services__item-icon {
+    padding: 54px 0 0;
+  }
+
+  .services__item-text {
+    font-size: 17px;
+    padding: 0;
+  }
+
+  .wrapper-text {
+    margin-left: 32px;
+    margin-right: 15px;
+  }
+}
+
+@media (max-width: 1025px) {
+  .wrapper {
+    padding: 0 15px;
+  }
+
+  .reviews {
+    padding: 0;
+    margin: 0 auto;
+    width: 98%;
+  }
+
+  .contacts__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 49px;
+  }
+
+  .content-wrapper {
+    width: 90%;
+    height: 300px;
+  }
+}
+
+
+@media (max-width: 950px) {
+
+  .wrapper__text {
+    padding: 181px 20px 314px;
+  }
+
+  .block-title {
+    font-size: 24px;
+  }
+
+  .numbers {
+    width: 60%;
+    padding: 36px;
+    height: auto;
+    flex-wrap: wrap;
+    top: 664px;
+  }
+
+  .nambers__block:first-child {
+    padding-left: 50px;
+  }
+
+  .nambers__block:last-child {
+    padding-right: 50px;
+  }
+
+  .content-wrapper {
+    height: 370px;
+  }
+}
+
+@media (max-width: 800px) {
+
+  .nambers__block:first-child,
+  .nambers__block:nth-child(2),
+  .nambers__block:nth-child(3),
+  .nambers__block:last-child {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .wrapper {
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0 15px;
+  }
+
+  .content-wrapper {
+    margin: 0 auto;
+  }
+
+  .reviews {
+    padding: 0;
+  }
+
+  .content-wrapper {
+    height: 230px;
+  }
+
+  .project-content,
+  .reviews-content,
+  .content:first-child {
+    margin: 0 auto;
+  }
+  .portfolio__wrapper {
+    margin-bottom: 71px;
+}
+
+@media (max-width: 745px) {
+  .request__title {
+    font-size: 40px;
+    line-height: 63px;
+  }
+
+  .request__text {
+    font-size: 20px;
+    line-height: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .request__wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 58px;
+  }
+
+  .btn {
+    margin: 6px 0 41px;
+  }
+}
+
+
+
+@media (max-width: 527px) {
+
+  .first-screen {
+    padding-bottom: 35px;
+    margin-bottom: 68px;
+  }
+
+  .wrapper__text {
+    padding: 60px 20px 60px;
+  }
+
+  .title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .numbers {
+    position: initial;
+    padding: 8px;
+  }
+
+  .nambers__block:first-child,
+  .nambers__block:nth-child(2),
+  .nambers__block:nth-child(3),
+  .nambers__block:last-child {
+    padding: 27px 12px 22px;
+  }
+
+  .block-namder {
+    font-size: 32px;
+    line-height: 27px;
+  }
+
+  .block-title {
+    font-size: 20px;
+  }
+
+  .block-subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .scren__title {
+    font-size: 24px;
+    line-height: 40px;
+    margin-bottom: 17px;
+  }
+
+  .request__title {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+  .request__text {
+    font-size: 17px;
+  }
+
+  .content-wrapper {
+    height: 252px;
+  }
+
+  .footer__wrapper {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 440px) {
+  .content-wrapper {
+    height: 280px;
+  }
+}
+
+@media (max-width: 420px) {
+  .numbers {
+    flex-direction: column;
+  }
+
+  .request__title {
+    font-size: 25px;
+  }
+
+  .request__text {
+    font-size: 14px;
+  }
+
+  .request__btn {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 420px) {
+  .content-wrapper {
+    height: 310px;
+  }
+}
+
+@media (max-width: 340px) {
+  .content-wrapper {
+    height: 340px;
+  }
+}
